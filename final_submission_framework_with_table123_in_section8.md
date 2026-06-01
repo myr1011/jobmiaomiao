@@ -338,15 +338,98 @@ ML-KEM：
 ```
 
 ### 6.2.3 结果表
-
 | Scheme | Security Level | Operation | Version | Result | Notes |
-|---|---|---|---|---|---|
+|---|---:|---|---|---|---|
 | ML-DSA | 44 | keypair | ver0_base | PASS |  |
+| ML-DSA | 44 | keypair | ver0 | PASS |  |
+| ML-DSA | 44 | keypair | ver1 | PASS |  |
+| ML-DSA | 44 | keypair | ver2 | PASS |  |
+| ML-DSA | 44 | keypair | ver3 | PASS |  |
 | ML-DSA | 44 | sign | ver0_base | PASS |  |
+| ML-DSA | 44 | sign | ver0 | PASS |  |
+| ML-DSA | 44 | sign | ver1 | PASS |  |
+| ML-DSA | 44 | sign | ver2 | PASS |  |
+| ML-DSA | 44 | sign | ver3 | PASS |  |
 | ML-DSA | 44 | verify | ver0_base | PASS |  |
+| ML-DSA | 44 | verify | ver0 | PASS |  |
+| ML-DSA | 44 | verify | ver1 | PASS |  |
+| ML-DSA | 44 | verify | ver2 | PASS |  |
+| ML-DSA | 44 | verify | ver3 | PASS |  |
+| ML-DSA | 65 | keypair | ver0_base | PASS |  |
+| ML-DSA | 65 | keypair | ver0 | PASS |  |
+| ML-DSA | 65 | keypair | ver1 | PASS |  |
+| ML-DSA | 65 | keypair | ver2 | PASS |  |
+| ML-DSA | 65 | keypair | ver3 | PASS |  |
+| ML-DSA | 65 | sign | ver0_base | PASS |  |
+| ML-DSA | 65 | sign | ver0 | PASS |  |
+| ML-DSA | 65 | sign | ver1 | PASS |  |
+| ML-DSA | 65 | sign | ver2 | PASS |  |
+| ML-DSA | 65 | sign | ver3 | PASS |  |
+| ML-DSA | 65 | verify | ver0_base | PASS |  |
+| ML-DSA | 65 | verify | ver0 | PASS |  |
+| ML-DSA | 65 | verify | ver1 | PASS |  |
+| ML-DSA | 65 | verify | ver2 | PASS |  |
+| ML-DSA | 65 | verify | ver3 | PASS |  |
+| ML-DSA | 87 | keypair | ver0_base | PASS |  |
+| ML-DSA | 87 | keypair | ver0 | PASS |  |
+| ML-DSA | 87 | keypair | ver1 | PASS |  |
+| ML-DSA | 87 | keypair | ver2 | PASS |  |
+| ML-DSA | 87 | keypair | ver3 | PASS |  |
+| ML-DSA | 87 | sign | ver0_base | PASS |  |
+| ML-DSA | 87 | sign | ver0 | PASS |  |
+| ML-DSA | 87 | sign | ver1 | PASS |  |
+| ML-DSA | 87 | sign | ver2 | PASS |  |
+| ML-DSA | 87 | sign | ver3 | PASS |  |
+| ML-DSA | 87 | verify | ver0_base | PASS |  |
+| ML-DSA | 87 | verify | ver0 | PASS |  |
+| ML-DSA | 87 | verify | ver1 | PASS |  |
+| ML-DSA | 87 | verify | ver2 | PASS |  |
+| ML-DSA | 87 | verify | ver3 | PASS |  |
 | ML-KEM | 512 | keypair | ver0_base | PASS |  |
+| ML-KEM | 512 | keypair | ver0 | PASS |  |
+| ML-KEM | 512 | keypair | ver1 | PASS |  |
+| ML-KEM | 512 | keypair | ver2 | PASS |  |
+| ML-KEM | 512 | keypair | ver3 | PASS |  |
 | ML-KEM | 512 | encap | ver0_base | PASS |  |
+| ML-KEM | 512 | encap | ver0 | PASS |  |
+| ML-KEM | 512 | encap | ver1 | PASS |  |
+| ML-KEM | 512 | encap | ver2 | PASS |  |
+| ML-KEM | 512 | encap | ver3 | PASS |  |
 | ML-KEM | 512 | decap | ver0_base | PASS |  |
+| ML-KEM | 512 | decap | ver0 | PASS |  |
+| ML-KEM | 512 | decap | ver1 | PASS |  |
+| ML-KEM | 512 | decap | ver2 | PASS |  |
+| ML-KEM | 512 | decap | ver3 | PASS |  |
+| ML-KEM | 768 | keypair | ver0_base | PASS |  |
+| ML-KEM | 768 | keypair | ver0 | PASS |  |
+| ML-KEM | 768 | keypair | ver1 | PASS |  |
+| ML-KEM | 768 | keypair | ver2 | PASS |  |
+| ML-KEM | 768 | keypair | ver3 | PASS |  |
+| ML-KEM | 768 | encap | ver0_base | PASS |  |
+| ML-KEM | 768 | encap | ver0 | PASS |  |
+| ML-KEM | 768 | encap | ver1 | PASS |  |
+| ML-KEM | 768 | encap | ver2 | PASS |  |
+| ML-KEM | 768 | encap | ver3 | PASS |  |
+| ML-KEM | 768 | decap | ver0_base | PASS |  |
+| ML-KEM | 768 | decap | ver0 | PASS |  |
+| ML-KEM | 768 | decap | ver1 | PASS |  |
+| ML-KEM | 768 | decap | ver2 | PASS |  |
+| ML-KEM | 768 | decap | ver3 | PASS |  |
+| ML-KEM | 1024 | keypair | ver0_base | PASS |  |
+| ML-KEM | 1024 | keypair | ver0 | PASS |  |
+| ML-KEM | 1024 | keypair | ver1 | PASS |  |
+| ML-KEM | 1024 | keypair | ver2 | PASS |  |
+| ML-KEM | 1024 | keypair | ver3 | PASS |  |
+| ML-KEM | 1024 | encap | ver0_base | PASS |  |
+| ML-KEM | 1024 | encap | ver0 | PASS |  |
+| ML-KEM | 1024 | encap | ver1 | PASS |  |
+| ML-KEM | 1024 | encap | ver2 | PASS |  |
+| ML-KEM | 1024 | encap | ver3 | PASS |  |
+| ML-KEM | 1024 | decap | ver0_base | PASS |  |
+| ML-KEM | 1024 | decap | ver0 | PASS |  |
+| ML-KEM | 1024 | decap | ver1 | PASS |  |
+| ML-KEM | 1024 | decap | ver2 | PASS |  |
+| ML-KEM | 1024 | decap | ver3 | PASS |  |
 
 ---
 
