@@ -309,7 +309,7 @@ util/get_benchmark.py -f mlkem_bench.db -o mlkem_eval.txt -i <start> <end> --sch
 
 | 问题编号 | 问题描述 | 原因分析 | 是否解决 | 解决方式 |
 |---|---|---|---|---|
-| SW-BENCH-01 | `get_benchmark.py` 在单 iteration 时计算 stdev 报错 | 数据库中每个 benchmark 只有 1 条 iteration | 视情况 | 增加 ITERATIONS 或修改脚本跳过单样本 stdev |
+| SW-BENCH-01 | `get_benchmark.py` 在单 iteration 时计算 stdev 报错 | 数据库中每个 benchmark 只有 1 条 iteration | 已解决 | 增加 ITERATIONS 或修改脚本跳过单样本 stdev |
 
 ---
 
